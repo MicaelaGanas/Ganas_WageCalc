@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/box_Background_White"
+        android:layout_width="345dp"
+        android:layout_height="689dp"
+        android:background="@drawable/box_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <TextView
+        android:id="@+id/box_border_color"
+        android:layout_width="324dp"
+        android:layout_height="277dp"
+        android:background="@drawable/box_border"
+        app:layout_constraintBottom_toBottomOf="@+id/box_Background_White"
+        app:layout_constraintEnd_toEndOf="@+id/box_Background_White"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/box_Background_White"
+        app:layout_constraintTop_toTopOf="@+id/box_Background_White"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="114dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/alike"
+        android:text="Payment:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/box_border_color"
+        app:layout_constraintEnd_toEndOf="@+id/box_border_color"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="@+id/box_border_color"
+        app:layout_constraintTop_toTopOf="@+id/box_border_color"
+        app:layout_constraintVertical_bias="0.198" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="114dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/alike"
+        android:text="Tax:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/box_border_color"
+        app:layout_constraintEnd_toEndOf="@+id/box_border_color"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="@+id/box_border_color"
+        app:layout_constraintTop_toTopOf="@+id/box_border_color"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="170dp"
+        android:layout_height="29dp"
+        android:fontFamily="@font/alike"
+        android:text="Total Payment:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/box_border_color"
+        app:layout_constraintEnd_toEndOf="@+id/box_border_color"
+        app:layout_constraintStart_toStartOf="@+id/box_border_color"
+        app:layout_constraintTop_toTopOf="@+id/box_border_color"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="294dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/alike"
+        android:text="Wage Calculator"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/box_border_color"
+        app:layout_constraintEnd_toEndOf="@+id/box_border_color"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/box_border_color"
+        app:layout_constraintTop_toTopOf="@+id/box_border_color"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="177dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/alike"
+        android:text="Overtime Payment:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/box_border_color"
+        app:layout_constraintEnd_toEndOf="@+id/box_border_color"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="@+id/box_border_color"
+        app:layout_constraintTop_toTopOf="@+id/box_border_color"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <TextView
+        android:id="@+id/payment_box"
+        android:layout_width="183dp"
+        android:layout_height="27dp"
+        android:background="@drawable/box_white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/box_border_color"
+        app:layout_constraintEnd_toEndOf="@+id/box_border_color"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="@+id/box_border_color"
+        app:layout_constraintTop_toTopOf="@+id/box_border_color"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <TextView
+        android:id="@+id/tax_box"
+        android:layout_width="147dp"
+        android:layout_height="24dp"
+        android:background="@drawable/box_white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/box_border_color"
+        app:layout_constraintEnd_toEndOf="@+id/box_border_color"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="@+id/box_border_color"
+        app:layout_constraintTop_toTopOf="@+id/box_border_color"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <TextView
+        android:id="@+id/totalPayment_box"
+        android:layout_width="201dp"
+        android:layout_height="44dp"
+        android:background="@drawable/box_white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/box_border_color"
+        app:layout_constraintEnd_toEndOf="@+id/box_border_color"
+        app:layout_constraintStart_toStartOf="@+id/box_border_color"
+        app:layout_constraintTop_toTopOf="@+id/box_border_color"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <TextView
+        android:id="@+id/overtimePayment_box"
+        android:layout_width="104dp"
+        android:layout_height="31dp"
+        android:background="@drawable/box_white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/box_border_color"
+        app:layout_constraintEnd_toEndOf="@+id/box_border_color"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="@+id/box_border_color"
+        app:layout_constraintTop_toTopOf="@+id/box_border_color"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alike"
+        android:text="Hourly Rate:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/box_Background_White"
+        app:layout_constraintEnd_toEndOf="@+id/box_Background_White"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="@+id/box_Background_White"
+        app:layout_constraintTop_toTopOf="@+id/box_Background_White"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alike"
+        android:text="No of Hours:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/box_Background_White"
+        app:layout_constraintEnd_toEndOf="@+id/box_Background_White"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="@+id/box_Background_White"
+        app:layout_constraintTop_toTopOf="@+id/box_Background_White"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <EditText
+        android:id="@+id/input_num_hours"
+        android:layout_width="159dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/box_Background_White"
+        app:layout_constraintEnd_toEndOf="@+id/box_Background_White"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="@+id/box_Background_White"
+        app:layout_constraintTop_toTopOf="@+id/box_Background_White"
+        app:layout_constraintVertical_bias="0.536" />
+
+    <EditText
+        android:id="@+id/input_hourly_rate"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/box_Background_White"
+        app:layout_constraintEnd_toEndOf="@+id/box_Background_White"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="@+id/box_Background_White"
+        app:layout_constraintTop_toTopOf="@+id/box_Background_White"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="251dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/alike"
+        android:text="Calculate Payment"
+        android:textColor="#353131"
+        android:textColorLink="#782B2B"
+        android:textStyle="bold"
+        android:onClick="calculation"
+        app:backgroundTint="#E7D7C9"
+        app:iconTint="#E7D7C9"
+        app:layout_constraintBottom_toBottomOf="@+id/box_Background_White"
+        app:layout_constraintEnd_toEndOf="@+id/box_Background_White"
+        app:layout_constraintStart_toStartOf="@+id/box_Background_White"
+        app:layout_constraintTop_toTopOf="@+id/box_Background_White"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="257dp"
+        android:layout_height="54dp"
+        android:textColor="#9E2E2E"
+        app:layout_constraintBottom_toBottomOf="@+id/box_Background_White"
+        app:layout_constraintEnd_toEndOf="@+id/box_Background_White"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="@+id/box_Background_White"
+        app:layout_constraintTop_toTopOf="@+id/box_Background_White"
+        app:layout_constraintVertical_bias="0.818" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
