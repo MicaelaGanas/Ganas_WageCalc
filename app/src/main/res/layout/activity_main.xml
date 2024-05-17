@@ -46,7 +46,6 @@
         app:layout_constraintTop_toTopOf="@+id/box_border_color"
         app:layout_constraintVertical_bias="0.198" />
 
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="114dp"
